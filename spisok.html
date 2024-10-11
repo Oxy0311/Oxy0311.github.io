@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<meta charset="UTF-8">
+<title>Spisok</title>
+<style>
+    body{background-color: beige; }
+    ul.outer li { display:inline-block; border:3px solid brown; }
+    ul.inner li { display:block; border:1px solid bisque;  }
+    
+    ul.inner { display:none;position:absolute;}
+    
+    ul.outer li:hover ul.inner {display:block;}
+    
+    ul { text-align:center;border:1px solid gold; padding-left:0px;}
+    img{ width: 400px;height: 500px;}
+    
+    </style>
+        
+    </head>
+    <body>
+        <div>
+
+            <ul class="outer">
+             <li> <a href>Понедельник</a>	<ul class="inner"> 
+                         <li>  бассейн</li>
+                         <li>  йога</li>
+                         <li>  стрейчинг </li>
+                    </ul>   </li>
+
+             <li> <a href>Вторник</a>	<ul class="inner"> 
+                         <li> бокс</li>
+                         <li> бассейн</li>
+                         <li> массаж </li>
+                    </ul>   </li>
+
+             <li> <a href>Среда</a>    <ul class="inner">
+                         <li> стрейчинг</li>
+                         <li> йога </li>
+                         <li> бассейн </li>
+                    </ul>   </li>
+
+             <li> <a href>Четверг</a> 	<ul class="inner">
+                         <li> танцы</li>
+                         <li> стрейчинг </li>
+                         <li> все </li>
+                    </ul>  </li>
+             
+             <li> <a href>Пятница</a>	<ul class="inner"> 
+                        <li>  бассейн</li>
+                        <li>  йога</li>
+                        <li>  стрейчинг </li>
+                 </ul>   </li>
+
+                 </ul>
+             
+            </div>
+
+            <div class="img">
+                <img src="img/p1.jpg">
+
+            </div>
+             
+             
+
+
+    </body>
+</html>
