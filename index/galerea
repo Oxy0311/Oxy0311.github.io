@@ -13,5 +13,9 @@
         <div class="col"></div>
     </div>
 </div>
+ 
+  <img src="" width="100px" height="100px" alt="zdes kartina">
+  
+   <button style="border-radius:30% ;"> </button>
   </body>
 </html>
