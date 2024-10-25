@@ -4,6 +4,34 @@
   <style> a {color:white;}
      img{ width: 200px; height: 200px;}
   </style>
+      <style>
+    /* Sticky footer styles
+-------------------------------------------------- */
+html {
+position: relative;
+min-height: 100%;
+}
+body {
+margin-bottom: 60px; /* Margin bottom by footer height */
+}
+.footer {
+position: absolute;
+bottom: 0;
+width: 100%;
+height: 60px; /* Set the fixed height of the footer here */
+line-height: 60px; /* Vertically center the text there */
+background-color: #f5f5f5;
+}
+
+.carousel-item
+   {
+    background: url(https://pruffme.com/assets/css/images/webinar/properties/logos/avatar_13.png);
+  background-repeat: no-repeat;
+  background-position: center;
+   background-size:contain; 
+   }
+   
+  </style>
   </head>
   <body class="bg-success">
     <div class="container bg-secondary">
@@ -15,8 +43,76 @@
         <div class="col"></div>
     </div>
 </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Tenth navbar example">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="true" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar-collapse justify-content-md-center collapse show" id="navbarsExample08" style="">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Centered nav only</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gal.html">Link</a>
+        </li>
+        
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid">
+  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+     <div class="d-none carousel-indicators">
+       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
+     </div>
+     <div class="carousel-inner">
+       <div class="carousel-item">
+         <div class="container">
+           <div class=" text-center">
+             <h1>Example headline.</h1>
+             <p class="opacity-75">Some representative placeholder content for the first slide of the carousel.</p>
+             <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+           </div>
+         </div>
+       </div>
+       <div class="carousel-item active carousel-item-start">
+         <div class="container">
+           <div class="text-center">
+             <h1>Another example headline.</h1>
+             <p>Some representative placeholder content for the second slide of the carousel.</p>
+             <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+           </div>
+         </div>
+       </div>
+       <div class="carousel-item carousel-item-next carousel-item-start">
+         <div class="container">
+           <div class="text-center">
+             <h1>One more for good measure.</h1>
+             <p>Some representative placeholder content for the third slide of this carousel.</p>
+             <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+           </div>
+         </div>
+       </div>
+     </div>
+     <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Previous</span>
+     </button>
+     <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+       <span class="carousel-control-next-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Next</span>
+     </button>
+   </div>
+     </div>
+
  
   <img src="index/p3.jpg"> 
+    
   
    <button style="border-radius:30% ;"> </button>
   </body>
